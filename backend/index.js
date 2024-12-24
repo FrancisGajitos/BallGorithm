@@ -1,7 +1,18 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import pkg from 'pg';
+
+dotenv.config();
+
 const { Client } = pkg;
+
+// Validate environment variables
+const requiredEnvVars = ['DB_HOST', 'DB_PORT', 'DB_USER', 'DB_PASSWORD', 'DB_NAME'];
+requiredEnvVars.forEach((varName) => {
+  if (!process.env[varName]) {
+    throw new Error(`Environment variable ${varName} is required but not defined`);
+  }
+});
 
 const app = express();
 
@@ -21,7 +32,7 @@ app.get('/', (req, res) => {
   res.send('Hello from Express + PostgreSQL!');
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
