@@ -16,21 +16,17 @@ p {
     font-family: 'Gabarito', sans-serif;
 }
 
-.start-button p {
+.start-button span {
     font-size: 40px;
     color: #2F184B;
     text-align: center;
     font-family: 'Gabarito', sans-serif;
-}
-
-body {
-    background-color: #F4EFFA;
-}
+  }
 
 .basketball {
     width: 150px;
     height: 150px;
-    animation: spin 2s linear infinite;
+    animation: spin 3s linear infinite;
     display: block;
     margin: auto;
 }
@@ -52,8 +48,10 @@ body {
     align-items: center;
     justify-content: center;
     margin: 20px auto;
-    color: white;
-    font-size: 24px;
+    font-size: 26px;
+    color: #2F184B;
+    text-align: center;
+    font-family: 'Gabarito', sans-serif;
     border: none;
     border-radius: 10px;
     cursor: pointer;
