@@ -8,16 +8,16 @@ const NavBar = () => {
                 <a href="/selection-screen">BallGorithm</a>
             </h1>
             <div className="navbar-section first">
-                <a href="/players">The 'Pedia</a>
+                <a href="/the-pedia">The 'Pedia</a>
             </div>
             <div className="navbar-section">
-                <a href="/teams">Era Compare</a>
+                <a href="/era-compare">Era Compare</a>
             </div>
             <div className="navbar-section">
-                <a href="/teams">Team Fit Calculator</a>
+                <a href="/team-fit-calculator">Team Fit Calculator</a>
             </div>
             <div className="navbar-section">
-                <a href="/teams">Player Progress</a>
+                <a href="/player-progress">Player Progress</a>
             </div>
             <div className="navbar-section">
                 <a href="/about">About</a>

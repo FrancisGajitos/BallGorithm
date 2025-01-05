@@ -15,7 +15,7 @@ const HomePage = () => {
             <p>Welcome to the...</p>
             <h1>BallGorithm</h1>
             <img src={basketball} alt="Spinning Basketball" className="basketball" />
-            <p>Your one stop shop for everything basketball!</p>
+            <p>Your one stat shop for everything basketball!</p>
             <button className="start-button" onClick={handleStartClick}>Start</button>
         </div>
     );

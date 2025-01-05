@@ -20,7 +20,7 @@
     color: #F4EFFA;
     text-align: left;
     font-family: 'Playfair Display', serif;
-    margin-right: 400px;
+    margin-right: 200px;
 }
 
 .navbar a {
@@ -37,5 +37,5 @@
 .navbar-section {
     text-align: center;
     font-family: 'Gabarito', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
